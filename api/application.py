@@ -3,13 +3,6 @@
     Loan server deliverable
     by Anna Rekow
 
-    to run: 
-    source .venv/bin/activate
-    export FLASK_APP=application.py
-    export FLASK_ENV=development
-    #### pip install -U flask-cors
-    flask run
-
 """
 
 from flask import Flask, request
