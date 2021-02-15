@@ -24,8 +24,6 @@ CORS(app)  # cross-orig.-resource-sharing
 
 # configure database - create db data.db in same directory
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///data.db'
-# app.config['SQLALCHEMY_DATABASE_URI'] ='mysql://admin:hihi1234@loans-db.cki1qufigddo.us-east-2.rds.amazonaws.com/loans_db'
-
 
 db = SQLAlchemy(app)
 
