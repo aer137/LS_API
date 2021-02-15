@@ -13,7 +13,7 @@ from flask_cors import CORS
 
 app = Flask(__name__)  # set up flask
 
-CORS(app)  # cross-orig.-resource-sharing
+CORS(app)
 
 # configure database - create db data.db in same directory
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///data.db'
