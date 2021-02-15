@@ -12,7 +12,6 @@ const LOAN_API_URL = 'http://ec2-18-221-55-247.us-east-2.compute.amazonaws.com/l
 
 async function create(data) {
     /* creates loan object
-
         data: js object w loan params
     */
     const res = await fetch(LOAN_API_URL, {
@@ -28,7 +27,6 @@ async function create(data) {
 
 async function get(url) {
     /* logs/returns all or one loan object
-
         for all loans, url: LOAN_API_URL
         for loan n: LOAN_API_URL + '/n'
     */
@@ -39,7 +37,6 @@ async function get(url) {
 
 async function update(url, data) {
     /* updates loan object
-
         url must contain LOAN_API_URL + '/n'
     */
     const res = await fetch(url, {
